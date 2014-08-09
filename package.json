@@ -1,0 +1,24 @@
+{
+  "name": "sw-json",
+  "version": "0.0.0",
+  "description": "Convenience middleware for sending JSON",
+  "main": "json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:download13/sw-json.git"
+  },
+  "keywords": [
+    "json",
+    "middleware",
+    "tiny"
+  ],
+  "author": "Erin Dachtler <download333@gmail.com>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/download13/sw-json/issues"
+  },
+  "homepage": "https://github.com/download13/sw-json"
+}
