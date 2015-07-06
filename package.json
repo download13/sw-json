@@ -1,6 +1,6 @@
 {
   "name": "sw-json",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Convenience middleware for sending JSON",
   "main": "json.js",
   "scripts": {
