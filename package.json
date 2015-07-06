@@ -4,7 +4,14 @@
   "description": "Convenience middleware for sending JSON",
   "main": "json.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "coverage": "mocha -r blanket -R html-cov > coverage.html"
+  },
+  "config": {
+    "blanket": {
+      "data-cover-only": "json.js",
+      "data-cover-never": "node_modules"
+    }
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,12 @@
   "bugs": {
     "url": "https://github.com/download13/sw-json/issues"
   },
-  "homepage": "https://github.com/download13/sw-json"
+  "homepage": "https://github.com/download13/sw-json",
+  "devDependencies": {
+    "blanket": "^1.1.7",
+    "http-router-fn": "0.0.1",
+    "mocha": "^2.2.5",
+    "mw-compose": "0.0.0",
+    "supertest": "^1.0.1"
+  }
 }
